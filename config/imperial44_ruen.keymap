@@ -43,7 +43,7 @@
         layer_en: layer_en {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 0 &to_en &kp LEFT_ALT &kp LEFT_SHIFT>;
+            bindings = <&to 0 &to_en &kp LA(LEFT_SHIFT)>;
             label = "LAYER_EN";
             wait-ms = <0>;
             tap-ms = <30>;
@@ -52,7 +52,7 @@
         layer_ru: layer_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 1 &to_ru &kp LEFT_ALT &kp LEFT_SHIFT>;
+            bindings = <&to 1 &to_ru &kp LA(LEFT_SHIFT)>;
             label = "LAYER_RU";
             tap-ms = <30>;
             wait-ms = <0>;
