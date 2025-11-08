@@ -89,9 +89,7 @@
             >;
 
             display-name = "Base";
-            sensor-bindings =
-                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>,
-                <&inc_dec_kp 0 0>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         ru {
@@ -103,7 +101,7 @@
                                                                           &mt LCTRL LEFT_BRACKET  &lt 2 SPACE                            &kp RU_CYRILLIC_KA    &kp RU_CYRILLIC_YU  &lt 3 ENTER          &mt LEFT_ALT RIGHT_BRACKET
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         nav {
