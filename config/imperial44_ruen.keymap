@@ -99,7 +99,7 @@
             >;
 
             display-name = "Base";
-            sensor-bindings = <&ms_scroll SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&ms_scroll MOVE_X(5) MOVE_X(-5)>;
         };
 
         ru {
@@ -111,7 +111,7 @@
                                                                           &mt LCTRL LEFT_BRACKET  &lt 2 SPACE                            &kp RU_CYRILLIC_KA    &kp RU_CYRILLIC_YU  &lt 3 ENTER          &mt LEFT_ALT RIGHT_BRACKET
             >;
 
-            sensor-bindings = <&ms_scroll SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&ms_scroll MOVE_X(5) MOVE_X(-5)>;
         };
 
         nav {
